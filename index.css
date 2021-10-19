@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: rgb(2, 18, 44);
+    color: white;
+    padding: 15px 15px;
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.link {
+    color: rgb(206, 197, 197);
+    text-decoration: none;
+    text-shadow: rgb(231, 247, 4) 1px 1px 4px;
+}
+
+.link:hover {
+    color: rgb(172, 165, 165); 
+}
+
+.conteudo img {
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+.corpo {
+    background-image: url(./img/fundo3.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.titulo {
+    color: rgb(173, 169, 169);
+    margin-left: 15px;
+    text-shadow: black 1px 1px 4px;
+}
+
+.img {
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+#informacao {
+    color: rgb(173, 169, 169);
+    margin-left: 45px;
+    text-shadow: black 1px 1px 4px;
+}

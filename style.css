@@ -1,0 +1,77 @@
+body {
+    background-image: url(./img/html.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    margin: auto;
+    margin-left: 1px;
+    margin-right: 10px;
+}
+
+#titulo1, .titulo2, .titulo3 {
+    font-size: 40%;
+    text-shadow: 4px 4px 3px;
+}
+
+.titulo1 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-style: italic;
+    color: rgb(216, 214, 214);
+    font-size: 35px;
+    text-shadow: 2px 2px 4px rgb(187, 85, 85);
+    border: 2px solid rgb(117, 113, 113);
+    border-radius: 20px;
+    box-shadow: rgba(216, 10, 10, 0.35) 0px 5px 15px;
+    margin-bottom: 25px;
+}
+
+.texto p {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Courier, monospace, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    color: rgba(216, 214, 214, 0.788);
+    margin: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    text-align: justify;
+    border: 2px solid rgb(117, 113, 113);
+    padding: 20px 25px;
+    box-shadow: rgba(216, 10, 10, 0.35) 0px 5px 15px;
+
+}
+
+.Foto {
+    border: 3px solid black;
+    border-radius: 50px;
+}
+
+.Foto2 {
+    border-radius: 15px;
+    display: inline-block;
+    margin-left: 10px;
+    border: 2px solid rgba(204, 198, 198, 0.795);
+}
+
+.EditandoLista {
+    list-style-type: none;
+    padding-left: 15px;
+}
+
+.EditandoLista li a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: teal;
+}
+
+.habilidades {
+    padding: 10px;
+    color: rgba(216, 214, 214, 0.788);
+    text-align: center;
+}
+
+.habilidades ul {
+    list-style-type: none;
+}
+
+.negrito {
+    font-weight: bold;
+}
